@@ -1,8 +1,8 @@
 body {
-    background: #545454;
+    background: #d6d6d6;
 }
 section {
-    background: #444444;
+    background: #6b6b6b;
 }
 
 .first-heading {
@@ -21,7 +21,7 @@ section {
 }
 
 p {
-    color: rgb(255, 255, 255);
+    color: rgb(216, 216, 216);
 }
 
 footer {
