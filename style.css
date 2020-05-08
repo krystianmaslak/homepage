@@ -1,0 +1,60 @@
+body {
+    background: #545454;
+}
+section {
+    background: #444444;
+}
+
+.first-heading {
+    color : #61D095;
+}
+
+.second-heading {
+    color: #a7d6a3;
+}
+.special-header{
+    color: #439775;
+}
+
+.third-heading {
+    color: #48BF84;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    color: #eeebf1;
+    background: #2A4747;
+}
+
+
+.code-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: #48BF84;
+}
+
+#top{
+    background: #2A4747;
+}
+
+a {
+    color: #61D095;
+}
+
+nav a {
+    color: #61D095;
+}
+
+img.wtf {
+    width: 300px;
+    height: 300px;
+}
+
+
+img {
+    width: 150px;
+    height: 180px;
+}
