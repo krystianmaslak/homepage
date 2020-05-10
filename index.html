@@ -1,115 +1,149 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WTF - Co Ten Frontend</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="nauka-css.html">Nauka CSS</a>
-            <a href="nauka-js.html">Nauka JS</a>
-            <a href="nauka-terminal.html">Nauka Terminal</a>
-        </nav>
-    </header> <!--Element powtarzalny na podstronach-->
-
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
+        <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
+        <a class="navigation__link" href="nauka-terminal.html">Nauka Terminal</a>
+      </nav>
+    </header>
+    <!--Element powtarzalny na podstronach-->
 
     <main>
-        <header id="top">
-            <h1 class="first-heading">WTF: Co Ten Frontend?!  <br/> Notatnik</h1>
-            <img src="wtf.png" alt="Logo WTF" class="wtf"/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, magnam ducimus. Sapiente, nihil! Praesentium, vitae? Sequi quis atque sint eveniet explicabo dolorum, perferendis totam dolor! Unde atque facere inventore! Nam?</p>
-        </header>
+      <header id="top">
+        <h1 class="first-heading first-heading--js">
+          WTF: Co Ten Frontend?! <br />
+          Notatnik
+        </h1>
+        <img src="wtf.png" alt="Logo WTF" class="wtf" />
+        <p>
+          13-tygodniowe szkolenie, do którego zamierzam się solidnie przyłożyć.
+        </p>
+      </header>
 
-        <section>
-            <h2 class="special-header">Tydzień I</h2>
+      <section>
+        <h2 class="special-header">Tydzień I</h2>
+        <h3 class="lets-go"></h3>
+        <article class="content-article">
             <p>Wprowadzenie do <i>szkolenia</i></p>
-        </section>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="special-header">Tydzień II</h2>
-            <p><b>Podstawy związane z HTML I CSS</b></p>
-            <article>
-                <h3 class="third-heading">Warstwy strony intetnetowej:</h3>
-                <p>Warstwa 3: JavaScript - Interakcja</p>
-                <p>Warstwa 2: CSS - Prezentacja: styl w jakim prezentowana jest treść,</p>
-                <p>Warstwa 1: HTML - Semantyka(tagi-znaczniki): porządkuje, opakowuje treść,</p>
-                <p>Warstwa 0: Treść</p>
-            </article>
-        </section>
+      <section>
+        <h2 class="special-header">Tydzień II</h2>
+        <p><b>Podstawy związane z HTML I CSS</b></p>
+        <article class="layers">
+          <h3 class="layers__title">Warstwy strony intetnetowej:</h3>
+          <p class="layers__paragraph">Warstwa 3: JavaScript - Interakcja</p>
+          <p class="layers__paragraph">
+            Warstwa 2: CSS - Prezentacja: styl w jakim prezentowana jest treść,
+          </p>
+          <p class="layers__paragraph">
+            Warstwa 1: HTML - Semantyka(tagi-znaczniki): porządkuje, opakowuje
+            treść,
+          </p>
+          <p class="layers__paragraph">Warstwa 0: Treść</p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="special-header">Tydzień III</h2>
-            <p><b>Wszystkeigo po trochu</b></p>
-            <article>
-                <h3 class="third-heading">Warstwy strony intetnetowej:</h3>
-                <p>Trello</p>
-                <p>HTML II</p>
-                <p>CSS II</p>
-                <p>JS</p>
-                <p>Terminal</p>
-            </article>
-        </section>
+      <section>
+        <h2 class="special-header">Tydzień III</h2>
+        <p><b>Wszystkeigo po trochu</b></p>
+        <article class="layers">
+            <h3 class="layers__title">Co nowego wiem?</h3>
+          <p>Trello</p>
+          <p>HTML II</p>
+          <p>CSS II</p>
+          <p>JS</p>
+          <p>Terminal</p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="special-header">Tydzień IV</h2>
-            <article>
-                <h3 class="third-heading">Dodatkowo:
-                </h3>
-                <p>git</p>
-                <p>github</p>
-            </article>
-        </section>
+      <section>
+        <h2 class="special-header">Tydzień IV</h2>
+        <article class="content-article">
+          <h3 class="third-heading">Dodatkowo:</h3>
+          <p>git</p>
+          <p>github</p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień V</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień V</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień VI</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień VI</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień VII</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień VII</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień VIII</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień VIII</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień IX</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień IX</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień X</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień X</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień XI</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień XI</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section>
-            <h2 class="second-heading">Tydzień XII</h2>
-        </section>
+      <section>
+        <h2 class="second-heading">Tydzień XII</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
 
-        <section id="łostatni">
-            <h2 class="second-heading">Tydzień XIII</h2>
-        </section>
-        
+      <section id="łostatni">
+        <h2 class="second-heading">Tydzień XIII</h2>
+        <article class="content-article">
+            <p>Wprowadzenie do <i>szkolenia</i></p>
+        </article>
+      </section>
     </main>
 
-    <footer>
-        All rights reserved © 2020 <a href="#top">Skocz do góry</a>
-    </footer>
+    <footer>All rights reserved © 2020 <a href="#top">Skocz do góry ^</a></footer>
 
     <script src="main.js"></script>
-
-</body>
+  </body>
 </html>

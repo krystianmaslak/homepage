@@ -1,60 +1,118 @@
 body {
-    background: #d6d6d6;
+  background: #FCFAF9;
+  margin: 0;
+  padding: 0;
 }
 section {
-    background: #6b6b6b;
+  background: #F3D3BD;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    left: 50%;
+
+}
+
+.navigation {
+    background: #48E5C2;
+    padding: 16px;
+    right: 0;
+    left: 0;
+}
+
+.navigation__link {
+    color: #333333;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation__link--homepage {
+    background: #333333;
+    color: #48E5C2;
+    padding:8px;
+    border-radius: 5px;
 }
 
 .first-heading {
-    color : #61D095;
+  color: #333333;
 }
 
 .second-heading {
-    color: #a7d6a3;
+  color: #333333;
 }
-.special-header{
-    color: #439775;
+.special-header {
+  color: #5E5E5E;
+}
+
+.lets-go {
+    color: #5E5E5E;
 }
 
 .third-heading {
-    color: rgb(78, 207, 143);
+  color: #5E5E5E;
 }
 
 p {
-    color: rgb(216, 216, 216);
+  color: rgb(49, 49, 49);
 }
 
 footer {
-    color: #eeebf1;
-    background: #2A4747;
+  color: #eeebf1;
+  background: #333333;
+  padding: 10px;
 }
-
 
 .code-header {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    color: #48BF84;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  color: #333333;
 }
 
-#top{
-    background: #2A4747;
+#top {
+  background: #5E5E5E;
 }
 
 a {
-    color: #61D095;
+  color: #48E5C2;
 }
 
-nav a {
-    color: #61D095;
-}
+
 
 img.wtf {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
-
 
 img {
-    width: 150px;
-    height: 180px;
+  width: 150px;
+  height: 180px;
 }
+
+.content-article {
+    background: #eeebf1;
+    padding: 10px;
+}
+
+.layers {
+    background: #eeebf1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px dashed #333333;
+    margin: 20px;
+}
+.layers__paragraph {
+    color: #333333;
+    font-weight: bold;
+}
+
+.layers__title {
+    color: #48E5C2;
+    background: #5E5E5E;
+    padding: 8px;
+}
+
+
+
