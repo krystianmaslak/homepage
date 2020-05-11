@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <nav class="navigation">
         <a class="navigation__link navigation__link--homepage" href="index.html"
           >Strona główna</a
@@ -23,28 +23,28 @@
     </header>
     <!--Element powtarzalny na podstronach-->
 
-    <main>
-      <header id="top">
-        <h1 class="first-heading first-heading--js">
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js">
           WTF: Co Ten Frontend?! <br />
           Notatnik
         </h1>
-        <img src="wtf.png" alt="Logo WTF" class="wtf" />
-        <p>
+        <img class="main__picture" src="wtf.png" alt="Logo WTF" />
+        <p class="main__description">
           13-tygodniowe szkolenie, do którego zamierzam się solidnie przyłożyć.
         </p>
       </header>
 
-      <section>
-        <h2 class="special-header">Tydzień I</h2>
-        <h3 class="lets-go"></h3>
+      <section class="done-section">
+        <h2 class="done-section__heading">Tydzień I</h2>
+        <h3 class="done-section__heading done-section__heading--js"></h3>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="special-header">Tydzień II</h2>
+      <section class="done-section">
+        <h2 class="done-section__heading">Tydzień II</h2>
         <p><b>Podstawy związane z HTML I CSS</b></p>
         <article class="layers">
           <h3 class="layers__title">Warstwy strony intetnetowej:</h3>
@@ -60,8 +60,8 @@
         </article>
       </section>
 
-      <section>
-        <h2 class="special-header">Tydzień III</h2>
+      <section class="done-section">
+        <h2 class="done-section__heading">Tydzień III</h2>
         <p><b>Wszystkeigo po trochu</b></p>
         <article class="layers">
           <h3 class="layers__title">Co nowego wiem?</h3>
@@ -73,81 +73,81 @@
         </article>
       </section>
 
-      <section>
-        <h2 class="special-header">Tydzień IV</h2>
+      <section class="done-section">
+        <h2 class="done-section__heading">Tydzień IV</h2>
         <article class="content-article">
-          <h3 class="third-heading">Dodatkowo:</h3>
+          <h3 class="done-section__heading done-section__heading--3">Dodatkowo:</h3>
           <p>git</p>
           <p>github</p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień V</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień V</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień VI</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień VI</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień VII</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień VII</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień VIII</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień VIII</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień IX</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień IX</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień X</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień X</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień XI</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień XI</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section>
-        <h2 class="second-heading">Tydzień XII</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień XII</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
-      <section id="łostatni">
-        <h2 class="second-heading">Tydzień XIII</h2>
+      <section class="not-done-section">
+        <h2 class="not-done-section__heading">Tydzień XIII</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
     </main>
 
-    <footer>
-      All rights reserved © 2020 <a href="#top">Skocz do góry ^</a>
+    <footer class="footer">
+      All rights reserved © 2020 <a class="footer__link" href="#top">Skocz do góry ^</a>
     </footer>
 
     <script src="main.js"></script>
