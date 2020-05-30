@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WTF - Co Ten Frontend</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header class="header">
-      <nav class="navigation">
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        |||
+      </button>
+      <nav class="navigation navigation--js">
         <a class="navigation__link navigation__link--homepage" href="index.html"
           >Strona główna</a
         >
@@ -30,9 +34,10 @@
           Notatnik
         </h1>
         <img class="main__picture" src="wtf.png" alt="Logo WTF" />
-        <p class="main__description">
+        <p class="main__description main__description--js">
           13-tygodniowe szkolenie, do którego zamierzam się solidnie przyłożyć.
         </p>
+        <button class="action--js">Zmień opis</button>
       </header>
 
       <section class="done-section">
@@ -65,32 +70,61 @@
         <p><b>Wszystkeigo po trochu</b></p>
         <article class="layers">
           <h3 class="layers__title">Co nowego wiem?</h3>
-          <p>Trello</p>
-          <p>HTML II</p>
-          <p>CSS II</p>
-          <p>JS</p>
-          <p>Terminal</p>
+          <ul>
+            <li>Trello</li>
+            <li>HTML II</li>
+            <li>CSS II</li>
+            <li>JS</li>
+            <li>Terminal</li>
+          </ul>
+
+          <table class="table">
+            <caption>
+              Tabelka
+            </caption>
+            <thead>
+              <tr>
+                <th>Tydzień</th>
+                <th>Lekcja</th>
+                <th>Czas trwania</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>HTML</td>
+                <td>14:00</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>CSS</td>
+                <td>10:00</td>
+              </tr>
+            </tbody>
+          </table>
         </article>
       </section>
 
       <section class="done-section">
         <h2 class="done-section__heading">Tydzień IV</h2>
         <article class="content-article">
-          <h3 class="done-section__heading done-section__heading--3">Dodatkowo:</h3>
+          <h3 class="done-section__heading done-section__heading--3">
+            Dodatkowo:
+          </h3>
           <p>git</p>
           <p>github</p>
         </article>
       </section>
 
       <section class="not-done-section">
-        <h2 class="not-done-section__heading">Tydzień V</h2>
+        <h2 class="done-section__heading">Tydzień V</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
       </section>
 
       <section class="not-done-section">
-        <h2 class="not-done-section__heading">Tydzień VI</h2>
+        <h2 class="done-section__heading">Tydzień VI</h2>
         <article class="content-article">
           <p>Wprowadzenie do <i>szkolenia</i></p>
         </article>
@@ -147,7 +181,8 @@
     </main>
 
     <footer class="footer">
-      All rights reserved © 2020 <a class="footer__link" href="#top">Skocz do góry ^</a>
+      All rights reserved © 2020
+      <a class="footer__link" href="#top">Skocz do góry ^</a>
     </footer>
 
     <script src="main.js"></script>

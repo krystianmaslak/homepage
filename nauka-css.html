@@ -4,29 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WTF - Co Ten Frontend</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header class="header">
-      <nav>
-        <nav class="navigation">
-            <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
-            <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
-            <a class="navigation__link" href="nauka-css.html">Nauka CSS</a>
-            <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
-            <a class="navigation__link" href="nauka-terminal.html">Nauka Terminal</a>
-          </nav>
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        |||
+      </button>
+      <nav class="navigation navigation--js">
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a
+          class="navigation__link navigation__link--homepage"
+          href="nauka-css.html"
+          >Nauka CSS</a
+        >
+        <a class="navigation__link" href="nauka-js.html">Nauka JS</a>
+        <a class="navigation__link" href="nauka-terminal.html"
+          >Nauka Terminal</a
+        >
+      </nav>
     </header>
     <!--Element powtarzalny na podstronach-->
 
     <main class="main">
       <header class="main__header" id="top">
-        <h1 class="main__heading">Nauka CSS</h1>
-        <img src="CSS.png" alt="CSS logo" />
+        <h1 class="main__heading main__heading--js">Nauka CSS</h1>
+        <img class="main__picture" src="CSS.png" alt="CSS logo" />
       </header>
 
-      <section class="tags" id="notes">
+      <section class="done_sections" id="notes">
         <h2 class="second-heading">Moje ulubione tagi</h2>
 
         <article>
@@ -37,7 +46,9 @@
     </main>
 
     <footer class="footer">
-      All rights reserved © 2020 <a class="footer__link" href="#top">Skocz do góry ^</a>
+      All rights reserved © 2020
+      <a class="footer__link" href="#top">Skocz do góry ^</a>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
