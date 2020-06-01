@@ -94,11 +94,13 @@ section {
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       display: inline-block;
       width: 10px;
       height: 10px;
-      background: #48e5c2;
+      margin-right: 5px;
+      margin-left: 5px;
+      background: #5e5e5e;
       border-radius: 50%;
 
       &--3 {
@@ -162,7 +164,7 @@ a {
   margin: 0 auto;
   color: #eeebf1;
   background: #333333;
-  padding: 10px;
+  padding: 20px;
   grid-area: footer;
 }
 

@@ -65,11 +65,13 @@ section {
 .done-section__heading {
   color: #48e5c2; }
   .done-section__heading::before, .done-section__heading::after {
-    content: "";
+    content: '';
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: #48e5c2;
+    margin-right: 5px;
+    margin-left: 5px;
+    background: #5e5e5e;
     border-radius: 50%; }
     .done-section__heading::before--3, .done-section__heading::after--3 {
       color: #5e5e5e; }
@@ -115,7 +117,7 @@ a {
   margin: 0 auto;
   color: #eeebf1;
   background: #333333;
-  padding: 10px;
+  padding: 20px;
   grid-area: footer; }
 
 .table {
