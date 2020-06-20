@@ -1,0 +1,18 @@
+.layers {
+    background: #eeebf1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px dashed #333333;
+    margin: 20px;
+  
+    &__paragraph {
+      color: #5e5e5e;
+      font-weight: bold;
+    }
+  
+    &__title {
+      color: #48e5c2;
+      background: #5e5e5e;
+      padding: 8px;
+    }
+  }
